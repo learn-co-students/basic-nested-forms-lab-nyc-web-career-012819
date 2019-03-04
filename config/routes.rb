@@ -55,4 +55,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+# get '/recipes/names', to: 'recipes#name'
+
 end
